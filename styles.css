@@ -1,0 +1,52 @@
+.container header {
+  background-color: aliceblue;
+  width: 100%;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.container {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0 auto;
+}
+
+.container h2 {
+  color: #4671b8;
+  font-weight: bold;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+
+.logo {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: #4671b8;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  header {
+    background-color: blue;
+  }
+
+  .container {
+    padding-top: 45px;
+  }
+
+  .container row {
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 40px;
+  }
+}
